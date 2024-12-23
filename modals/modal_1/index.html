@@ -8,6 +8,20 @@
     <title>Modal #1</title>
 </head>
 <body>
-    
+    <button onclick="toggleModal()" type="button">Open Modal</button>
+
+    <script>
+        const toggleModal = () => {
+            const bodyClassList = document.body.classList;
+
+            if (bodyClassList.contains("open")) {
+                bodyClassList.remove("open");
+                bodyClassList.add("closed");
+            } else {
+                bodyClassList.remove("closed");
+                bodyClassList.add("open");
+            }
+        }
+    </script>
 </body>
 </html>

@@ -11,3 +11,14 @@ body {
     font-family: "Ubuntu";
     background: #37353B;
 }
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    background: #1A1A1A;
+    color: #F9F9F9;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 36px;
+    font-size: 16px;
+}
