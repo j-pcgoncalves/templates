@@ -68,3 +68,9 @@ i {
 .footer-list-link:hover {
     color: #FFF;
 }
+
+.footer-divider {
+    margin-block: 2.5rem;
+    border: none;
+    border-top: 1px solid rgba(252, 255, 255, 0.1);
+}
